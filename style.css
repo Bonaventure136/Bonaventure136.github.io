@@ -21,15 +21,15 @@ p{
 }
 #p2{
     background-color: blueviolet;
-    left: 30rem;
+    left: 50%;
 }
 #p3{
     background-color: blue;
-    left: 25rem;
+    left: 40%;
 }
 #p4{
     background-color: orange;
-    left: 20rem;
+    left: 30%;
 }
 #p5{
     background-color: grey;
@@ -56,15 +56,15 @@ p{
 }
 #p7{
     background-color: yellowgreen;
-    left: 20rem;
+    left: 30%;
 }
 #p8{
     background-color: purple;
-    left: 25rem;
+    left: 40%;
 }
 #p9{
     background-color: peru;
-    left: 30rem;
+    left: 50%;
 }
 #p10{
     background-color: violet;
