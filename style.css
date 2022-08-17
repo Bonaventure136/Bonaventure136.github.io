@@ -1,71 +1,88 @@
-body,p{
+body{
+    text-align: center;
+    background-color:rgba(243, 238, 238, 0.5);
+    padding: 10px;
+}
+div{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+ul{ 
+    border: 2px solid none;
+    text-align: center;
     margin: 0;
-}
-.cover{
-    border: 2px solid none;
-    background-color: aqua;
+    padding: 0;
     width: 100%;
-    height: min-content;
-    position: relative;
-
+    background-color: #f1f1f1;
 }
-p{
-    width: 50px;
-    height: 50px;
-    margin-bottom: 1rem;
-    position: relative;
+li a {
+       display: block;
+       color: #000;
+       padding: 8px 16px;
+       text-decoration: none;
 }
-#p1{
-    background-color: red;
-
+/*on hover Change the link color  */
+li a:hover {
+             background-color: #555;
+             color: white;
 }
-#p2{
-    background-color: blueviolet;
-    left: 50%;
-}
-#p3{
-    background-color: blue;
-    left: 40%;
-}
-#p4{
-    background-color: orange;
-    left: 30%;
-}
-#p5{
-    background-color: grey;
-}
-
-.cover2{
+.content{
     border: 2px solid none;
-    background-color: rgb(0, 255, 187);
-    width: 100%;
-    height: min-content;
-    position: relative;
-    margin-top: 1rem;
+    width: 500px;
+    height: 900px;
+    margin: auto;
+    background-color: rgba(243, 238, 238, 0.5);
+}
+li {
+     text-align: start;
+}
+@media (max-width:400px){
+    h1{
+        width: 100%;
+        font-size: medium;
+    }
+}
+@media (max-width:400px){
+    p{
+        width: 100%;
+        font-size: small;
+    }
+}
+@media (max-width:400px){
+    img{
+        width: 100%;
+        padding-left:0px ;
+    }
+}
+@media (max-width:400px){
+    div{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width:400px){
+    ul{
+        width: 80%;
+        margin: auto;
+        padding: auto;
 
+    }
 }
-p{
-    width: 50px;
-    height: 50px;
-    margin-bottom: 1rem;
-    position: relative;
-}
-#p6{
-    background-color: yellow;
+@media (max-width:400px){
+    h3{
+        margin: auto;
 
+
+    }
 }
-#p7{
-    background-color: yellowgreen;
-    left: 30%;
-}
-#p8{
-    background-color: purple;
-    left: 40%;
-}
-#p9{
-    background-color: peru;
-    left: 50%;
-}
-#p10{
-    background-color: violet;
+@media (max-width:400px){
+    .content{
+        width: 100%;
+        margin: auto;
+        padding: auto;
+        font-size: small;
+        height: min-content;
+
+    }
 }
