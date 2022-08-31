@@ -400,7 +400,8 @@
     margin-top: 0px;
    }
    #headerImg2{
-    width: 400px;
+    border: 2px solid black;
+    width: 20rem;
     justify-content: center;  
  }
    /*  */
