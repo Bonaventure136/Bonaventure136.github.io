@@ -53,6 +53,7 @@
         font-Weight: 600px;
         border: 2px solid none;
         padding-bottom: 55px;
+        border: 2px solid none;
       }
     nav{
         border: 2px solid none;
@@ -70,6 +71,7 @@
         position: relative;
         left: 65%;
         top: -15px;
+        box-shadow:   0 0 3px black;
     }
    .fanPageright{
     padding: 50px;
@@ -88,7 +90,7 @@
     font-size: 19px;
    }
    .fanPageright button{
-    border: 1px  solid white;
+    border: 1px  solid hsl(322, 100%, 66%);
     padding: 12px 35px;
     font-weight: bolder;
     font-size: none;
@@ -96,6 +98,7 @@
     color: #EDFEFF;
     background-color: hsl(322, 100%, 66%);
     margin-top: 15px;
+    box-shadow: black 0 0 4px;
    }
    .fanPageleft{
     padding: 20px 0px 0px 0px;
@@ -103,12 +106,13 @@
    /*  */
    .GrowTogether{
     border-radius: 10px;
-    border: 2px solid #F8F8F8;
+    border: 1px solid #F8F8F8;
     padding-top: 30px;
     padding-bottom: 20px;
     margin: 40px;
     margin-bottom: 25px;
     width: fit-content;
+    box-shadow: black 0 0 2px;
    }
    .GrowTogethermini{
     border: 1px solid none;
@@ -136,13 +140,14 @@
    /*  */
    .flowingconversation{
     border-radius: 10px;
-    border: 2px solid #F8F8F8;
+    border: 1px solid #F8F8F8;
     padding-top: 30px;
     padding-bottom: 20px;
     margin: 40px;
     margin-bottom: 25px;
     margin-top: 0px;
     width: fit-content;
+    box-shadow: black 0 0 2px;
    }
    .flowingconversationmini{
     border: 1px solid none;
@@ -176,6 +181,7 @@
     margin: 40px;
     margin-top: 0px;
     width: fit-content;
+    box-shadow: black 0 0 2px;
    }
    .yourusermini{
     border: 1px solid none;
@@ -184,6 +190,7 @@
     margin-bottom: 0px;
     position: relative;
     right: 500px;
+    
    }
    .youruser h3{
     padding-bottom: 15px;
@@ -218,6 +225,7 @@
         padding: 20px;
         position: relative;
         top: 40px;
+        box-shadow: black 0 0 2px;
        }
        .readycommunitymimi>h4{
         text-align: center;
@@ -352,6 +360,7 @@
         border-radius:20px;
         background-color: #FEFFFF;
         width: 130px;
+        box-shadow: black 0 0 4px;
     }
    .fanPageright{
     padding: 50px;
@@ -385,7 +394,7 @@
     margin: auto;
     }
    .fanPageright button{
-    border: 1px  solid white;
+    border: 1px  solid hsl(322, 100%, 66%);
     padding: 12px 35px;
     font-weight: bolder;
     font-size: none;
@@ -395,6 +404,7 @@
     margin-top: 15px;
     width: 220px;
     margin: auto;
+    box-shadow: black 0 0 4px;
    }
    .fanPageleft{
     border: 2px solid none;
@@ -417,6 +427,7 @@
     margin: 40px;
     margin-bottom: 25px;
     width: fit-content;
+    box-shadow: black 0 0 2px;
    }
    .GrowTogethermini{
     border: 1px solid none;
@@ -452,13 +463,14 @@
    }  
    .flowingconversation{
     border-radius: 10px;
-    border: 2px solid  hsl(193, 100%, 96%);
+    border: 2px solid  white;
     padding-top: 30px;
     padding-bottom: 20px;
     margin: 40px;
     margin-bottom: 25px;
     margin-top: 0px;
     width: fit-content;
+    box-shadow: black 0 0 3px;
    }
    .flowingconversationmini{
     border: 1px solid none;
@@ -486,13 +498,14 @@
 /*  */
 .youruser{
     border-radius: 10px;
-    border: 2px solid hsl(193, 100%, 96%);
+    border: 2px solid white;
     padding-top: 30px;
     padding-left: 0px;
     padding-bottom: 20px;
     margin: 40px;
     margin-top: 0px;
     width: fit-content;
+    box-shadow: black 0 0 3px;
    }
    .yourusermini{
     border: 1px solid none;
@@ -544,7 +557,7 @@
     text-align: center;
    }
    .button2{
-    border: 1px  solid  hsl(193, 100%, 96%);
+    border: 1px  solid  hsl(322, 100%, 66%);
     padding: 12px 10px;
     font-weight: bolder;
     font-size: 10px;
@@ -553,6 +566,7 @@
     background-color: hsl(322, 100%, 66%);
     margin-top: 15px;
     width: 180px;
+    box-shadow: black 0 0 4px;
    }
    /*  */
    .footer{
