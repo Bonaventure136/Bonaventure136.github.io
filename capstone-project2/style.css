@@ -51,6 +51,8 @@
         background-color: #EDFEFF;
         height: min-content;
         font-Weight: 600px;
+        border: 2px solid none;
+        padding-bottom: 55px;
       }
     nav{
         border: 2px solid none;
@@ -325,6 +327,8 @@
         background-color: #EDFEFF;
         height: min-content;
         font-Weight: 600px;
+        border: 2px solid none;
+        padding-bottom: 25px;
       }
       nav{
         border: 2px solid none;
@@ -357,7 +361,7 @@
     padding: 0px 20px 10px 0px;
     margin-right: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
     margin-bottom: 10px;
     margin: auto;
@@ -400,7 +404,7 @@
     margin-top: 0px;
    }
    #headerImg2{
-    border: 2px solid black;
+    border: 2px solid none;
     width: 20rem;
     justify-content: center;  
  }
@@ -573,12 +577,18 @@
    .footer ul li ul{
     list-style: none;
    }
+   .firstcolumn>li>ul{
+    border: 2px solid none;
+    margin-top: 25px;
+   }
    .firstcolumn>li>ul>li{
+    border: 2px solid none;
     margin-top: 15px;
    }
    .firstcolumn>li>ul>li:nth-child(2){
     border: 2px solid none;
     display: flex;
+    width: 88%;
    }
    #locationImg1 {
     padding-top: 5px;
@@ -603,26 +613,42 @@
    .secondcolumn{
     margin-top:65px ;
    }
+   .secondcolumn>li>ul{
+    border: 2px solid none;
+    margin-bottom: -70px;
+   }
    .secondcolumn>li>ul>li{
     margin-bottom: 15px;
    }
    .thirdcolumn{
     margin-top:65px ;
    }
+   .thirdcolumn>li>ul{
+    border: 2px solid none;
+    margin-top: 0px;
+
+   }
    .thirdcolumn>li>ul>li{
     margin-bottom: 15px;
    }
    .fourthcolumn{
-    margin-top:65px ;
+    border: 2px solid none;
+    margin-top:0px ;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+    padding-top: 15px;
    }
    .fourthcolumn>li>ul>li{
     border: 2px solid none;
     margin-bottom: 15px;
-    margin-right: 5px;
+    margin-right: 0px;
    }
    .fourthcolumn>li>ul:nth-child(1){
     display: flex;
-    margin-bottom: 50px;
+    justify-content: center;
+    margin-bottom: 10px;
    }
     }
 
