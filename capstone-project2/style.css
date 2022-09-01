@@ -342,16 +342,16 @@
         border: 2px solid none;
         height: min-content;
         background-color: none;
-        padding: 35px 50px 5px 50px;
+        padding: 20px 10px;
         padding-right: 20px;
         width: 90%;
         display: flex;
         justify-content: space-between;
+        padding:
     }
     #headerImg1{
-        width: 150px;
-        height: 30px;
-        margin: 0.05rem;
+      width: 150px;
+      padding-right: auto;
     }
     .button1{
         border: 1px  solid white;
@@ -359,15 +359,17 @@
         font-size: 13px;
         border-radius:20px;
         background-color: #FEFFFF;
-        width: 130px;
+        width: 100px;
         box-shadow: black 0 0 4px;
+        padding-left: auto;
     }
    .fanPageright{
-    padding: 50px;
+    border: 2px solid none;
+    padding: 0px;
    }
    .fanPageright h1{
     border: 2px solid none;
-    padding: 0px 20px 10px 0px;
+    padding: 50px 50px 20px 50px;
     margin-right: 50px;
     text-align: center;
     font-size: 25px;
@@ -377,21 +379,19 @@
    }
    .fanPageright p{
     border: 2px solid none;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-right: 15px;
+    padding: 20px;
     font-size: 19px;
     text-align: center;
     width: 100%;
    }
    .fanpagebutton{
     border: 2px solid none;
-    margin: 20px 0px 0px 0px;
    }
    .fanpagebuttonmini{
     border: 2px solid none;
-    width: 220px;
-    margin: auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
     }
    .fanPageright button{
     border: 1px  solid hsl(322, 100%, 66%);
@@ -401,7 +401,6 @@
     border-radius: 20px;
     color: #EDFEFF;
     background-color: hsl(322, 100%, 66%);
-    margin-top: 15px;
     width: 220px;
     margin: auto;
     box-shadow: black 0 0 4px;
@@ -421,22 +420,18 @@
    /*  */
    .GrowTogether{
     border-radius: 10px;
-    border: 2px solid hsl(193, 100%, 96%);
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin: 40px;
-    margin-bottom: 25px;
+    border: 1px solid none;
+    padding: 10px;
+    margin: 20px 40px;
     width: fit-content;
     box-shadow: black 0 0 2px;
    }
    .GrowTogethermini{
     border: 1px solid none;
-    padding: 60px;
-    margin: auto;
-    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
    }
    .GrowTogethermini h3{
-    padding-bottom: 15px;
     color: #0F2F36;
     display: flex;
     justify-content: center;
@@ -445,17 +440,14 @@
     border: 1px solid none;
     color: C5C9CB;
     padding: 10px;
-    padding-left: 0px;
    }
    #headerImg3{
-    width: 70%;
     margin: auto;
     display: flex;
     justify-content: center;
    }
    /*  */
    #headerImg4{
-    width: 70%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -463,25 +455,19 @@
    }  
    .flowingconversation{
     border-radius: 10px;
-    border: 2px solid  white;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin: 40px;
-    margin-bottom: 25px;
-    margin-top: 0px;
+    border: 1px solid  none;
+    padding: 10px;
+    margin: 20px 40px;
     width: fit-content;
-    box-shadow: black 0 0 3px;
+    box-shadow: black 0 0 1px;
    }
    .flowingconversationmini{
     border: 1px solid none;
-    padding: 60px;
-    padding-top: PX;
+    padding: 10px;
     margin: auto;
-    margin-top: PX;
-
+    text-align: center;
    }
    .flowingconversation h3{
-    padding-bottom: 15px;
     color: #0F2F36;
     display: flex;
     justify-content: center;
@@ -490,7 +476,6 @@
     border: 1px solid none;
     color: C5C9CB;
     padding: 10px;
-    padding-left: 0px;
    }
    .flowingconversation img{
     position: relative;
@@ -498,40 +483,31 @@
 /*  */
 .youruser{
     border-radius: 10px;
-    border: 2px solid white;
-    padding-top: 30px;
-    padding-left: 0px;
-    padding-bottom: 20px;
-    margin: 40px;
-    margin-top: 0px;
+    border: 1px solid none;
+    padding: 10px;
+    margin: 20px 40px;
     width: fit-content;
-    box-shadow: black 0 0 3px;
+    box-shadow: black 0 0 1px;
    }
    .yourusermini{
     border: 1px solid none;
-    padding: 60px;
+    padding: 10px;
     margin: auto;
-    margin-bottom: 0px;
-    display: inline-block;
+    text-align: center;
    }
    .youruser h3{
-    padding-bottom: 15px;
+    padding: 10px;
     color: #0F2F36;
-    display: flex;
-    justify-content: center;
    }
    .youruserrmini p{
     border: 1px solid none;
     color: C5C9CB;
-    padding: 10px;
-    padding-left: 0px;
    }
    #headerImg5{
-    width: 100%;
+    border: 1px solid none;
     margin: auto;
     display: flex;
     justify-content: center;
-    position: relative;
 
    }
     /*  */
