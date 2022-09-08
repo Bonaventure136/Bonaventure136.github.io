@@ -30,6 +30,7 @@ hr{
 }
 .navbar{
     background-color: #07294D;
+    margin: 0px;
 }
 .dropdown-item{
     padding-left:20px ;
@@ -37,4 +38,50 @@ hr{
 }
 .dropdown-menu{
     border-radius: 0px;
+}
+.card{
+    border:none;
+    border-radius: 0px;
+    margin: auto;
+    background-color: white;
+}
+.c-heaer1{
+    border: 2px solid none;
+    border-top-right-radius: 0px;
+    background-color: #c50227;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+
+}
+.card-body{
+    color: grey;
+    background-color: white;
+}
+.link1{
+    color: #c50227;
+}
+.link1:hover{
+    background-color: #07294D;
+    padding: 10px;
+}
+.link2{
+    color: #07294D;
+}
+.link2:hover{
+    color: #c50227;
+}
+.c-header2{
+    border-bottom: 3.5px solid red;
+    color: #212052;
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+#link3{
+    color: #c50227;
+}
+#link3:hover{
+    color: rgb(228, 245, 171)128, 128, 128);
 }

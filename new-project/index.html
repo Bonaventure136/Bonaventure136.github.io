@@ -143,21 +143,133 @@
       </nav>
       <!-- navbar ends here -->
 
-    <div class="container-fluid hi-five-div p-0">
+    <!-- <div class="container-fluid hi-five-div p-0">
         <img src="./hi-five.jpg" alt="" width="100%">
+    </div> -->
+
+<!-- Carousel / Slideshow -->
+<!-- The following example shows how to create a basic carousel with indicators and controls: -->
+
+<!-- Carousel -->
+<div id="demo" class="carousel  slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000"> 
+      <!-- The .active class needs to be added to one of the slides otherwise the carousel will not be visible. -->
+      <img src="hi-five.jpg" alt="Los Angeles" class="d-block w-100">
     </div>
-    <!-- cards -->
-    <div class="container-fluid">
-      <div class="card bg-dark" style="width: 18rem;">
-        <img src="bonaventure.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius facilis illo ipsa reiciendis quis itaque consectetur! Tempora veritatis sit hic, consequatur neque ratione incidunt eius molestias, atque et excepturi aut.</p>
-          <a href="#" class="card-link">Card link</a>
-        </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="IMAGES/science_upload10-scaled.jpg"  alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="IMAGES/tribute.jpg" alt="New York" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
       </div>
     </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+    <!-- cards -->
+    <div class="row container-fluid p-0 m-0">
+      <div class="card col-lg-4 p-0 m-0">
+        <div class="card-header c-heaer1">
+          <h5 class="card-title">Welcome to DWC</h5>
+          <h6 class="card-text">From The Principal</h6>
+         </div> 
+        <img src="Bonaventure-white.jpeg" class="card-img-top" alt="..." height="350px"  style="border-radius: 0px;" >
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius facilis illo ipsa reiciendis quis itaque consectetur! Tempora veritatis sit hic, consequatur neque ratione incidunt eius molestias, atque et excepturi aut.</p>
+            <a href="#" class="card-link link1 fw-semibold">Read More</a>
+        </div>
+      </div>
+      
+        <div class="card col-lg-4 p-0 m-0" style="background-color: #980A25;">
+          <div class="card-header c-heaer1">
+            <h5 class="card-title">Welcome to DWC</h5>
+            <h6 class="card-text">From The Principal</h6>
+          </div> 
+          <img src="Bonaventure-white.jpeg" class="card-img-top" alt="..." height="350px" style="border-radius: 0px;">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius facilis illo ipsa reiciendis quis itaque consectetur! Tempora veritatis sit hic, consequatur neque ratione incidunt eius molestias, atque et excepturi aut.</p>
+              <a href="#" class="card-link link1 fw-semibold">Read More</a>
+          </div>
+        </div>
+
+        <div class="card col-lg-4 p-0 m-0" style="background-color: #78091E;">
+            <div class="card-header c-heaer1">
+              <h5 class="card-title">Welcome to DWC</h5>
+              <h6 class="card-text">From The Principal</h6>
+            </div> 
+            <img src="Bonaventure-white.jpeg" class="card-img-top" alt="..." height="350px" style="border-radius: 0px;">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius facilis illo ipsa reiciendis quis itaque consectetur! Tempora veritatis sit hic, consequatur neque ratione incidunt eius molestias, atque et excepturi aut.</p>
+                <a href="#" class="card-link link1 fw-semibold">Read More</a>
+            </div>
+          </div>
+        </div>
+            <!-- second cards -->
+    <div class="row container-fluid p-0 m-0">
+      <div class="card col-lg-4 p-0 m-0">
+        <div class="card-header fw-bold c-header2">
+          <h5 class="card-title fw-bold" >DWC Virtual Tour</h5>
+         </div> 
+         <video width="330" controls class="mx-auto">
+          <source src="paw-paw-actor.mp4" type="video/mp4" >
+         </video>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius facilis illo ipsa reiciendis quis itaque consectetur! Tempora veritatis sit hic, consequatur neque ratione incidunt eius molestias, atque et excepturi aut.</p>
+        </div>
+      </div>
+      
+        <div class="card  bg-light col-lg-4 p-0 m-0" style="background-color: #980A25;">
+          <div class="card-header fw-bold c-header2">
+            <h5 class="card-title fw-bold">School News & Updates</h5>
+          </div> 
+          <img src="April-newsletter.png" class="card-img-top" alt="..."style="border-radius: 0px;">
+          <div class="card-body bg-light">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius facilis illo ipsa reiciendis quis itaque consectetur! Tempora veritatis sit hic, consequatur neque ratione incidunt eius molestias, atque et excepturi aut.</p>
+            <p><a href="#" class="card-link link2 fw-bolder">Lorem dolor conectetur adipisicing. </a></p>
+            <p><a href="#" class="card-link link2 fw-bolder">Lorem ipsum dolor siyout.</a></p>
+            <p><a href="#" class="card-link link2 fw-bolder">Lorem ipsum dolor sit.</a></p>
+            <p><a href="#" class="card-link link2 fw-bolder">Lorem ipsum dolor sit.</a></p>
+            <p><a href="#" class="card-link link2 fw-bolder">Lorem ipsum dolor sit.</a></p>
+          </div>
+        </div>
+
+        <div class="card  bg-light col-lg-4 p-0 m-0" style="background-color: #78091E;">
+            <div class="card-header fw-bold c-header2">
+              <h5 class="card-title fw-bold">High Performance Learning</h5>
+            </div> 
+            <img src="high-performance-learning.png " class="card-img-top" alt="..." style="border-radius: 0px;" height="194px" width="80%">
+            <div class="card-body bg-light ">
+              <p class="card-text">We use the High Performance Learning philosophy and framework in our school. This means that we believe that all the students can be high performers, and we teach with these expectations in mind. We are an accredited HPL World Class School. .</p>
+              <p class="card-text">Using the research-based High Performance Learning approach helps us to systematically build the cognitive competencies that lead a young person to thrive in school and in later life. </p> 
+              <p class="card-text">We embed the HPL philosophy throughout our school. We never tell our students they cannot achieve; it is just they are not doing it yet but with practice and perseverance it will happen.</p> 
+              <p class="card-text">If you want to discover more about High Performance Learning please vist<a href="#" id="link3" class="card-link fw-semibold">www.highperformancelearning.co.uk</a></p> 
+                
+            </div>
+          </div>
+
+        </div>
 
     
 
